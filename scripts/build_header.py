@@ -124,7 +124,7 @@ def build_svg(art: list[str], flagship: int, total: int, repos: int, updated: st
         f'aria-label="{escape(USER)} — ASCII line-art of a ewe and her lamb, framed as a terminal window">',
         "<style>"
         ":root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;"
-        "--am:#e3b341;--gr:#7ee787;--sav:#6e7681;--art:#9fb0c0;}"
+        "--am:#e3b341;--gr:#7ee787;--sav:#6e7681;--art:#c9d1d9;}"
         '.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}'
         "</style>",
         f'<rect x="{wx}" y="{wy}" width="{win_w}" height="{win_h}" rx="10" '

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="738" height="650" viewBox="0 0 738 650" role="img" aria-label="jryang1997 — ASCII line-art of a ewe and her lamb, framed as a terminal window">
-<style>:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;--art:#9fb0c0;}.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}</style>
+<style>:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;--art:#c9d1d9;}.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}</style>
 <rect x="8" y="8" width="722" height="634" rx="10" fill="var(--bg)" stroke="var(--bd)" stroke-width="1.5"/>
 <path d="M18 8 h702 a10,10 0 0 1 10,10 v24 h-722 v-24 a10,10 0 0 1 10,-10 z" fill="var(--bar)"/>
 <path d="M18 42 H720" stroke="var(--bd)" stroke-width="1"/>
