@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
 <title id="title">A year of contributions, a whale in motion</title>
-<desc id="desc">The contribution calendar gathers into a top-down text blue whale. Its head dives first, its flukes lift and follow under water, then its nose surfaces before the body returns to the calendar. Motion is baked from dsh-ascii-whales 949c19afacedd31cd0101fb4e2501eadb91aa485. 885 contributions in the last year.</desc>
+<desc id="desc">The contribution calendar gathers into a top-down text blue whale. Its head dives first, its flukes lift and follow under water, then its nose surfaces before the body returns to the calendar. Motion is baked from dsh-ascii-whales 949c19afacedd31cd0101fb4e2501eadb91aa485. 887 contributions in the last year.</desc>
 <style>
 .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .glyph{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;text-anchor:middle;dominant-baseline:central}
@@ -4126,7 +4126,7 @@
 <animate attributeName="opacity" dur="28s" repeatCount="indefinite" keyTimes="0.000000;0.107143;0.214286;0.750000;0.857143;1.000000" values="0;0;1;1;0;0" calcMode="spline" keySplines="0 0 1 1;0.77 0 0.175 1;0 0 1 1;0.77 0 0.175 1;0 0 1 1" />
 </text></g>
 <g transform="translate(772.4 237.2)" opacity="1">
-<title>2026-10-31: 29 contributions</title>
+<title>2026-10-31: 31 contributions</title>
 <animateTransform attributeName="transform" dur="28s" repeatCount="indefinite" keyTimes="0.000000;0.107143;0.214286;0.321429;0.325000;0.328571;0.332143;0.335714;0.339286;0.342857;0.346429;0.357143;0.360714;0.364286;0.367857;0.375000;0.382143;0.392857;0.396429;0.400000;0.403571;0.407143;0.421429;0.425000;0.428571;0.432143;0.435714;0.439286;0.442857;0.446429;0.450000;0.453571;0.457143;0.460714;0.464286;0.467857;0.478571;0.482143;0.485714;0.489286;0.492857;0.496429;0.500000;0.503571;0.507143;0.510714;0.514286;0.517857;0.521429;0.528571;0.532143;0.535714;0.539286;0.546429;0.550000;0.553571;0.567857;0.585714;0.596429;0.600000;0.603571;0.607143;0.610714;0.614286;0.617857;0.628571;0.632143;0.635714;0.639286;0.642857;0.646429;0.650000;0.653571;0.657143;0.671429;0.675000;0.678571;0.682143;0.685714;0.750000;0.857143;1.000000" values="772.4 237.2;772.4 237.2;666.42 218.5;680.82 218.5;680.84 218.46;679.95 218.34;678.15 218.17;675.41 217.95;671.72 217.71;667.18 217.45;661.95 217.19;644.23 216.47;638.95 216.26;634.77 216.1;632.17 215.98;630.92 215.84;629.2 215.71;625.75 215.54;623.7 215.43;620.6 215.25;616.68 215;612.2 214.71;592.92 213.38;588.57 213.07;584.63 212.79;581.19 212.54;578.32 212.32;576.09 212.14;574.54 212.01;573.74 211.92;573.78 211.9;575.02 211.91;577.66 211.94;581.46 211.99;586.2 212.06;591.61 212.15;609.39 212.51;615.07 212.66;620.32 212.81;624.99 212.96;629.01 213.1;632.35 213.24;635.03 213.37;637.09 213.48;638.62 213.56;639.69 213.62;640.37 213.63;641.77 213.72;644.64 213.94;651.85 214.75;654.77 215.28;656.55 215.87;657.09 216.48;656.13 217.53;656.26 217.87;657.64 218.02;660.27 218.08;664.08 218.21;665.93 218.25;667.25 218.29;670.24 218.42;674.7 218.61;680.42 218.86;687.16 219.15;694.68 219.47;718.79 220.4;726.09 220.63;732.29 220.78;736.98 220.82;739.74 220.74;740.49 220.53;740.35 220.28;739.63 220.03;738.47 219.77;732.23 218.88;730.96 218.72;730.05 218.6;729.63 218.53;729.78 218.5;738.42 218.5;772.4 237.2;772.4 237.2" calcMode="spline" keySplines="0 0 1 1;0.77 0 0.175 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.77 0 0.175 1;0 0 1 1" type="translate"/>
 <animate attributeName="opacity" dur="28s" repeatCount="indefinite" keyTimes="0.000000;0.107143;0.214286;0.321429;0.328571;0.335714;0.339286;0.342857;0.350000;0.353571;0.539286;0.542857;0.546429;0.550000;0.667857;0.685714;0.750000;0.857143;1.000000" values="1;1;0.95;0.95;0.92;0.81;0.72;0.57;0.05;0;0;0.2;0.94;1;1;0.95;0.95;1;1" />
 <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#006d32" opacity="1">
@@ -4137,6 +4137,6 @@
 </text></g>
 </g>
 <path d="M18 350H882" stroke="#30363d"/>
-<text class="m" x="24" y="375" font-size="10" fill="#8b949e">885 contributions · last 12 months</text>
+<text class="m" x="24" y="375" font-size="10" fill="#8b949e">887 contributions · last 12 months</text>
 <text class="m" x="876" y="375" text-anchor="end" font-size="10" fill="#6e7681">a year, in motion</text>
 </svg>
