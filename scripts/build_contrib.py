@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Contribution heatmap that gathers into an ASCII blue whale, dives, resurfaces."""
 from __future__ import annotations
-import json, os
+import json, subprocess, datetime as dt
 from html import escape
 
 CELL = 11.0
@@ -26,25 +26,12 @@ def level(n: int) -> int:
     return 4
 
 def fetch_days():
-    """Read the contribution calendar; fall back to zeros when unauthenticated."""
-    import urllib.error, urllib.request
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if token:
-        q = ('{"query":"query{user(login:\\"jryang1997\\"){contributionsCollection'
-             '{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"}')
-        req = urllib.request.Request(
-            "https://api.github.com/graphql", data=q.encode(),
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json",
-                     "User-Agent": "profile-header"})
-        try:
-            with urllib.request.urlopen(req, timeout=20) as r:
-                body = json.load(r)
-            cal = body["data"]["user"]["contributionsCollection"]["contributionCalendar"]
-            days = [d0 for w in cal["weeks"] for d0 in w["contributionDays"]]
-            return (days[-371:] if len(days) > 371 else days), cal["totalContributions"]
-        except (urllib.error.URLError, KeyError, ValueError):
-            pass
-    return [{"date": "", "contributionCount": 0}] * (COLS * ROWS), 0
+    q = """query{user(login:"jryang1997"){contributionsCollection{contributionCalendar{
+        totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
+    out = subprocess.run(["gh","api","graphql","-f",f"query={q}"], capture_output=True, text=True)
+    d = json.loads(out.stdout)["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    days = [d0 for w in d["weeks"] for d0 in w["contributionDays"]]
+    return days[-371:] if len(days) > 371 else days, d["totalContributions"]
 
 def main():
     days, total = fetch_days()
@@ -52,8 +39,8 @@ def main():
         days.insert(0, {"date":"", "contributionCount":0})
 
     whale = json.load(open("assets/whale-points.json"))
-    pts = sorted(whale["pts"], key=lambda p: (p[1], p[0]))   # 目标点：上到下、左到右
-    ww, wh = whale["w"]*WHALE_SCALE, whale["h"]*WHALE_SCALE
+    pts = whale["pts"]                      # 已按热力格顺序一一对应
+    ww, wh = max(p[0] for p in pts)*WHALE_SCALE, max(p[1] for p in pts)*WHALE_SCALE
 
     CARD_W, CARD_H = 900, 520
     WIN = (8, 8, CARD_W-16, CARD_H-16)
@@ -65,7 +52,7 @@ def main():
     gy = 226
 
     wx = (CARD_W - ww)/2
-    wy = 196
+    wy = 186
     SINK = 140
 
     def esc(s): return escape(str(s), quote=False)
@@ -106,7 +93,7 @@ def main():
         kts = ";".join(f"{v:.3f}" for v in [0, T['gather'], T['hover'], T['sink'], T['rise'], T['scatter'], 1])
         fvals = f"{g_c};{b_c};{b_c};{BLUE[1]};{b_c};{g_c};{g_c}"
 
-        o.append(f'<rect x="0" y="0" width="{CELL}" height="{CELL}" rx="2" fill="{g_c}" transform="translate({sx:.1f},{sy:.1f})">')
+        o.append(f'<rect x="0" y="0" width="{CELL}" height="{CELL}" rx="2" fill="{g_c}">')
         o.append(f'<animateTransform attributeName="transform" type="translate" values="{vals}" '
                  f'keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')
         o.append(f'<animate attributeName="fill" values="{fvals}" keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')
