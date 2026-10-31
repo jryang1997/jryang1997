@@ -23,6 +23,8 @@
 <text class="m f13 cy" x="32" y="202.79999999999995" xml:space="preserve">           (____)\        )\/\</text>
 <text class="m f13 cy" x="32" y="218.39999999999995" xml:space="preserve">                 ||----w |</text>
 <text class="m f13 cy" x="32" y="233.99999999999994" xml:space="preserve">                 ||     ||</text>
+<text class="m f13" x="32" y="251.59999999999994" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> </tspan></text>
+<rect class="cy" x="48.1" y="241.59999999999994" width="7.5" height="13" opacity="0.85"><animate attributeName="opacity" values="0.85;0;0.85" dur="1.15s" repeatCount="indefinite"/></rect>
 <text class="m f13 am" x="401.6" y="103.2">os</text>
 <text class="m f13 fg" x="457.8" y="103.2" xml:space="preserve">macOS · Windows · Android</text>
 <text class="m f13 am" x="401.6" y="120.8">role</text>
