@@ -8,10 +8,10 @@ CELL = 11.0
 GAP  = 1.4
 PITCH = CELL + GAP
 COLS, ROWS = 53, 7
-CYCLE = 32.0
+CYCLE = 18.0
 
 # 时间轴
-T = dict(hold=0.06, gather=0.30, hover=0.44, sink=0.56, rise=0.68, scatter=0.90)
+T = dict(hold=0.10, gather=0.30, hover=0.46, sink=0.58, rise=0.78, scatter=0.90)
 
 WHALE_SCALE = 1.02
 
@@ -42,7 +42,7 @@ def main():
     pts = whale["pts"]                      # 已按热力格顺序一一对应
     ww, wh = max(p[0] for p in pts)*WHALE_SCALE, max(p[1] for p in pts)*WHALE_SCALE
 
-    CARD_W, CARD_H = 900, 520
+    CARD_W, CARD_H = 900, 560
     WIN = (8, 8, CARD_W-16, CARD_H-16)
     TOP = 34
 
@@ -53,7 +53,7 @@ def main():
 
     wx = (CARD_W - ww)/2
     wy = 186
-    SINK = 140
+    SINK = 130
 
     def esc(s): return escape(str(s), quote=False)
     o = []
@@ -78,6 +78,19 @@ def main():
     o.append(f'<text class="m" x="{CARD_W/2}" y="{surface_y:.1f}" text-anchor="middle" '
              f'font-size="11" fill="#1f4b8f" xml:space="preserve">{esc(waves)}</text>')
 
+    # 入水/出水：外层容器整体俯冲、没入水面、仰角浮出
+    cx_, cy_ = wx + ww / 2, wy + wh / 2
+    o.append("<g>")
+    o.append(f'<animateTransform attributeName="transform" type="translate" additive="sum" '
+             f'values="0 0;0 0;0 {SINK};0 {SINK};0 0;0 0" '
+             f'keyTimes="0;0.46;0.58;0.66;0.78;1" dur="{CYCLE}s" repeatCount="indefinite"/>')
+    o.append(f'<animateTransform attributeName="transform" type="rotate" additive="sum" '
+             f'values="0 {cx_:.0f} {cy_:.0f};0 {cx_:.0f} {cy_:.0f};12 {cx_:.0f} {cy_:.0f};'
+             f'12 {cx_:.0f} {cy_:.0f};-9 {cx_:.0f} {cy_:.0f};0 {cx_:.0f} {cy_:.0f}" '
+             f'keyTimes="0;0.46;0.58;0.66;0.78;1" dur="{CYCLE}s" repeatCount="indefinite"/>')
+    o.append(f'<animate attributeName="opacity" values="1;1;1;0;0;1;1" '
+             f'keyTimes="0;0.46;0.52;0.58;0.64;0.70;1" dur="{CYCLE}s" repeatCount="indefinite"/>')
+
     # 格子
     for i in range(COLS*ROWS):
         col, row = i // ROWS, i % ROWS
@@ -89,7 +102,7 @@ def main():
         g_c, b_c = GREEN[lv], BLUE[max(2, lv)]
 
         vals = (f"{sx:.1f} {sy:.1f};{tx:.1f} {ty:.1f};{tx:.1f} {ty:.1f};"
-                f"{tx:.1f} {ty+SINK:.1f};{tx:.1f} {ty:.1f};{sx:.1f} {sy:.1f};{sx:.1f} {sy:.1f}")
+                f"{tx:.1f} {ty:.1f};{tx:.1f} {ty:.1f};{sx:.1f} {sy:.1f};{sx:.1f} {sy:.1f}")
         kts = ";".join(f"{v:.3f}" for v in [0, T['gather'], T['hover'], T['sink'], T['rise'], T['scatter'], 1])
         fvals = f"{g_c};{b_c};{b_c};{BLUE[1]};{b_c};{g_c};{g_c}"
 
@@ -98,6 +111,8 @@ def main():
                  f'keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')
         o.append(f'<animate attributeName="fill" values="{fvals}" keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')
         o.append('</rect>')
+
+    o.append("</g>")
 
     # 底部统计
     sb_y = y + h - 26
