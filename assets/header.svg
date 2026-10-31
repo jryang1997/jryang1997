@@ -1,44 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="322" viewBox="0 0 700 322" role="img" aria-label="jryang1997 — terminal card: cowsay-styled ASCII sheep with whoami output">
-<style>
-:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--cy:#79c0ff;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;}
-.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
-.f13{font-size:13px}.f11{font-size:11px}.f10{font-size:10px}
-.cy{fill:var(--cy)}.am{fill:var(--am)}.gr{fill:var(--gr)}.fg{fill:var(--fg)}.mu{fill:var(--mu)}.sav{fill:var(--sav)}
-</style>
-<rect x="8" y="8" width="684" height="306" rx="10" fill="var(--bg)" stroke="var(--bd)" stroke-width="1.5"/>
-<path d="M18 8 h664 a10,10 0 0 1 10,10 v24 h-684 v-24 a10,10 0 0 1 10,-10 z" fill="var(--bar)"/>
-<path d="M18 42 H682" stroke="var(--bd)" stroke-width="1"/>
-<circle cx="28" cy="25" r="4.5" fill="#ff5f57" opacity="0.9"/>
-<circle cx="43" cy="25" r="4.5" fill="#febc2e" opacity="0.9"/>
-<circle cx="58" cy="25" r="4.5" fill="#28c840" opacity="0.9"/>
-<text class="m f11 mu" x="350.0" y="29" text-anchor="middle">jryang1997@github: ~</text>
-<text class="m f13" x="32" y="70" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> whoami</tspan></text>
-<text class="m f13 fg" x="32" y="85.6" xml:space="preserve">一群小羊说 · 赛博一只羊</text>
-<text class="m f13" x="32" y="107.19999999999999" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> cowsay </tspan><tspan class="am">"small tools, small frictions"</tspan></text>
-<text class="m f13 fg" x="32" y="124.79999999999998" xml:space="preserve"> ________________________________</text>
-<text class="m f13 fg" x="32" y="140.39999999999998" xml:space="preserve">&lt; small tools, small frictions &gt;</text>
-<text class="m f13 sav" x="32" y="155.99999999999997" xml:space="preserve"> --------------------------------</text>
-<text class="m f13 cy" x="32" y="171.59999999999997" xml:space="preserve">        \   ^___^</text>
-<text class="m f13 cy" x="32" y="187.19999999999996" xml:space="preserve">         \ ( o o )\_______</text>
-<text class="m f13 cy" x="32" y="202.79999999999995" xml:space="preserve">           (____)\        )\/\</text>
-<text class="m f13 cy" x="32" y="218.39999999999995" xml:space="preserve">                 ||----w |</text>
-<text class="m f13 cy" x="32" y="233.99999999999994" xml:space="preserve">                 ||     ||</text>
-<text class="m f13" x="32" y="251.59999999999994" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> </tspan></text>
-<rect class="cy" x="48.1" y="241.59999999999994" width="7.5" height="13" opacity="0.85"><animate attributeName="opacity" values="0.85;0;0.85" dur="1.15s" repeatCount="indefinite"/></rect>
-<text class="m f13 am" x="401.6" y="103.2">os</text>
-<text class="m f13 fg" x="457.8" y="103.2" xml:space="preserve">macOS · Windows · Android</text>
-<text class="m f13 am" x="401.6" y="120.8">role</text>
-<text class="m f13 fg" x="457.8" y="120.8" xml:space="preserve">vibe coder · 非科班</text>
-<text class="m f13 am" x="401.6" y="138.4">stack</text>
-<text class="m f13 fg" x="457.8" y="138.4" xml:space="preserve">Swift · TS · Rust · Python</text>
-<text class="m f13 am" x="401.6" y="156.0">now</text>
-<text class="m f13 fg" x="457.8" y="156.0" xml:space="preserve">MenuBarMijia · ★220</text>
-<text class="m f13 am" x="401.6" y="173.6">side</text>
-<text class="m f13 fg" x="457.8" y="173.6" xml:space="preserve">ASCII whales · AI agents</text>
-<text class="m f13 am" x="401.6" y="191.2">motto</text>
-<text class="m f13 fg" x="457.8" y="191.2" xml:space="preserve">小摩擦，搓成小工具</text>
-<path d="M18 286 H682" stroke="var(--bd)" stroke-width="1"/>
-<text class="m f10 mu" x="22" y="299" xml:space="preserve">[0] 0:zsh*</text>
-<text class="m f10 sav" x="350.0" y="299" text-anchor="middle">"一群小羊说"</text>
-<text class="m f10 mu" x="678" y="299" text-anchor="end">utf-8 · 一只羊</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="738" height="650" viewBox="0 0 738 650" role="img" aria-label="jryang1997 — ASCII line-art of a ewe and her lamb, framed as a terminal window">
+<style>:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;--art:#9fb0c0;}.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}</style>
+<rect x="8" y="8" width="722" height="634" rx="10" fill="var(--bg)" stroke="var(--bd)" stroke-width="1.5"/>
+<path d="M18 8 h702 a10,10 0 0 1 10,10 v24 h-722 v-24 a10,10 0 0 1 10,-10 z" fill="var(--bar)"/>
+<path d="M18 42 H720" stroke="var(--bd)" stroke-width="1"/>
+<circle cx="28" cy="24" r="4.5" fill="#ff5f57" opacity="0.9"/>
+<circle cx="43" cy="24" r="4.5" fill="#febc2e" opacity="0.9"/>
+<circle cx="58" cy="24" r="4.5" fill="#28c840" opacity="0.9"/>
+<text class="m" x="369.0" y="28" text-anchor="middle" font-size="11" fill="var(--mu)">jryang1997@github: ~ — sheep.txt</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9.4" fill="var(--art)">
+<text x="28" y="95.7" xml:space="preserve">                    :::   ::                                  </text>
+<text x="28" y="105.4" xml:space="preserve">                 :+*@@@#*%@@#=:                          .--  </text>
+<text x="28" y="115.1" xml:space="preserve">              .:#@#*-:.::::-+%@#*-:------::.    .:--=+*##%@%  </text>
+<text x="28" y="124.8" xml:space="preserve">           =#%%%#=            :-%@#*****###%####%%#***=-:.:#  </text>
+<text x="28" y="134.5" xml:space="preserve">         :#@*-.                  .*+         ...          .#  </text>
+<text x="28" y="144.2" xml:space="preserve">         *@*                      +@%:                    .#  </text>
+<text x="28" y="153.9" xml:space="preserve">         .#%%                      -@*                    .#  </text>
+<text x="28" y="163.6" xml:space="preserve">          *%*                      *%:                    .#  </text>
+<text x="28" y="173.3" xml:space="preserve">          #@=                     *@#                     .#  </text>
+<text x="28" y="183.0" xml:space="preserve">         -%%:                    +@%@=                    .#  </text>
+<text x="28" y="192.7" xml:space="preserve">        -@#:                     @#.*@=                   .#  </text>
+<text x="28" y="202.4" xml:space="preserve">       .@#.   +%:             +* +@#+%@*-                 .#  </text>
+<text x="28" y="212.1" xml:space="preserve">       .@*    @%              *@  :+%%@@@-                .#  </text>
+<text x="28" y="221.8" xml:space="preserve">        *@    *%#+.--.      -%%#    #%:::                 .#  </text>
+<text x="28" y="231.5" xml:space="preserve">        =@+    :@@%%@@****#%@@#.   -%*                    .#  </text>
+<text x="28" y="241.2" xml:space="preserve">        .*@+   +%=  .-=++++=-%#   :@@=                    .#  </text>
+<text x="28" y="250.9" xml:space="preserve">          +@#. #%           .%#   +#+.                    .#  </text>
+<text x="28" y="260.6" xml:space="preserve">           =@%-+%+         .%%:             -==           .#  </text>
+<text x="28" y="270.3" xml:space="preserve">            :*@@@@%.      -%%-       .#*  :+@%=           .#  </text>
+<text x="28" y="280.0" xml:space="preserve">              .+###:.:   .%%. .%%*=.  *% .@@*.            .#  </text>
+<text x="28" y="289.7" xml:space="preserve">                    %@**%%@-   ==*@@*+%@:                 .#  </text>
+<text x="28" y="299.4" xml:space="preserve">                    +@@@@@+       .=*#+=                  .#  </text>
+<text x="28" y="309.1" xml:space="preserve">                    .+%%-.                                .#  </text>
+<text x="28" y="318.8" xml:space="preserve">                      %@#-                                .#  </text>
+<text x="28" y="328.5" xml:space="preserve">                      :-*@*                               .#  </text>
+<text x="28" y="338.2" xml:space="preserve">                         #@:                              .#  </text>
+<text x="28" y="347.9" xml:space="preserve">                         :@#.                             .#  </text>
+<text x="28" y="357.6" xml:space="preserve">                          =@%=:                           .#  </text>
+<text x="28" y="367.3" xml:space="preserve">                           :+%@+-.                        .#  </text>
+<text x="28" y="377.0" xml:space="preserve">                             .=*#%%#+                     .#  </text>
+<text x="28" y="386.7" xml:space="preserve">                                  .#@                     .#  </text>
+<text x="28" y="396.4" xml:space="preserve">                                   %%=                    .#  </text>
+<text x="28" y="406.1" xml:space="preserve">                                   =@%:          =%%.*###*.#  </text>
+<text x="28" y="415.8" xml:space="preserve">                                    -%@:         %@: %%.+@##  </text>
+<text x="28" y="425.5" xml:space="preserve">                                     :%=        =@#  +%. .:.  </text>
+<text x="28" y="435.2" xml:space="preserve">                                     +@:       .%%:  :@#      </text>
+<text x="28" y="444.9" xml:space="preserve">                                    :@#        *@=    +@+     </text>
+<text x="28" y="454.6" xml:space="preserve">                                    #%.       .@%      *@.    </text>
+<text x="28" y="464.3" xml:space="preserve">                                   *@*       :#@+     =%%.    </text>
+<text x="28" y="474.0" xml:space="preserve">                                  #@=        %@+  ..:*@*:     </text>
+<text x="28" y="483.7" xml:space="preserve">                                .#@=         :.  :%%##+       </text>
+<text x="28" y="493.4" xml:space="preserve">                                *@-              +@:          </text>
+<text x="28" y="503.1" xml:space="preserve">                                %#        =++==+#@#           </text>
+<text x="28" y="512.8" xml:space="preserve">                                *%%*    .+@#####+-            </text>
+<text x="28" y="522.5" xml:space="preserve">                                 +%%**##@%+                   </text>
+<text x="28" y="532.2" xml:space="preserve">                                  .:--:::                     </text>
+</g>
+<text class="m" x="434" y="132" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text>
+<text class="m" x="434" y="160" font-size="15" fill="var(--fg)" font-weight="600">一只羊的 ASCII</text>
+<text class="m" x="434" y="190" font-size="11" fill="var(--am)">os</text>
+<text class="m" x="482" y="190" font-size="11" fill="var(--fg)" xml:space="preserve">macOS · Windows · Android</text>
+<text class="m" x="434" y="212" font-size="11" fill="var(--am)">role</text>
+<text class="m" x="482" y="212" font-size="11" fill="var(--fg)" xml:space="preserve">vibe coder · 非科班</text>
+<text class="m" x="434" y="234" font-size="11" fill="var(--am)">stack</text>
+<text class="m" x="482" y="234" font-size="11" fill="var(--fg)" xml:space="preserve">Swift · TS · Rust · Python</text>
+<text class="m" x="434" y="256" font-size="11" fill="var(--am)">now</text>
+<text class="m" x="482" y="256" font-size="11" fill="var(--fg)" xml:space="preserve">MenuBarMijia · ★220</text>
+<text class="m" x="434" y="278" font-size="11" fill="var(--am)">side</text>
+<text class="m" x="482" y="278" font-size="11" fill="var(--fg)" xml:space="preserve">ASCII whales · AI agents</text>
+<text class="m" x="434" y="300" font-size="11" fill="var(--am)">motto</text>
+<text class="m" x="482" y="300" font-size="11" fill="var(--fg)" xml:space="preserve">小摩擦，搓成小工具</text>
+<text class="m" x="434" y="328" font-size="11" fill="var(--sav)">$</text>
+<rect x="443" y="319" width="6" height="11" fill="var(--gr)" opacity="0.8"><animate attributeName="opacity" values="0.8;0;0.8" dur="1.15s" repeatCount="indefinite"/></rect>
+<path d="M18 606 H720" stroke="var(--bd)" stroke-width="1"/>
+<text class="m" x="22" y="622" font-size="10" fill="var(--mu)" xml:space="preserve">[0] 0:zsh*  sheep.txt — 62×52</text>
+<text class="m" x="369.0" y="622" font-size="10" fill="var(--sav)" text-anchor="middle">229★ · 10 repos</text>
+<text class="m" x="716" y="622" font-size="10" fill="var(--mu)" text-anchor="end">updated 2026-10-31</text>
 </svg>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="700" alt="jryang1997 — terminal card: whoami, cowsay ASCII sheep, and stack">
+  <img src="assets/header.svg" width="738" alt="jryang1997 — terminal card: whoami, cowsay ASCII sheep, and stack">
 </p>
 
 
