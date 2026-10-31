@@ -1,8 +1,9 @@
-### Hi, I'm 一群小羊说 👋
+<p align="center">
+  <img src="assets/header.svg" width="738" alt="jryang1997 — terminal card: whoami, cowsay ASCII sheep, and stack">
+</p>
 
-非科班 Vibe Coder，平时喜欢借助 AI Agent 把生活和工作里遇到的具体小痛点搓成顺手的小工具，涵盖 macOS、Windows 与 Android 端。
 
-Non-CS builder exploring Vibe Coding — turning everyday friction into small, practical tools with the help of AI agents and open-source workflows.
+*Non-CS builder exploring Vibe Coding — turning everyday friction into small, practical tools with the help of AI agents and open-source workflows.*
 
 [![X](https://img.shields.io/badge/X-@jryang1997-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/jryang1997)
 [![SSPai](https://img.shields.io/badge/少数派-一群小羊说-D7191A?style=flat-square)](https://sspai.com/u/dub8fbmk/updates)
@@ -23,3 +24,5 @@ Non-CS builder exploring Vibe Coding — turning everyday friction into small, p
 ### Acknowledgments · 致谢
 
 仓库中的许多工程化实践（如领域词汇表、ADR 记录与测试门禁）受益于开源社区优秀的 Agent 技能与工程方法论（特别感谢 Matt Pocock、Poteto 等开发者的开源分享）。我还在持续学习中，欢迎提 Issue 或交流想法！
+
+<sub>The ASCII header is traced from a CC0 sheep silhouette (Wikimedia Commons, LadyofHats); the star count refreshes daily via GitHub Actions.</sub>
