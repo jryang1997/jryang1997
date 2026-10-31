@@ -106,7 +106,7 @@ def main():
         kts = ";".join(f"{v:.3f}" for v in [0, T['gather'], T['hover'], T['sink'], T['rise'], T['scatter'], 1])
         fvals = f"{g_c};{b_c};{b_c};{BLUE[1]};{b_c};{g_c};{g_c}"
 
-        o.append(f'<rect x="0" y="0" width="{CELL}" height="{CELL}" rx="2" fill="{g_c}">')
+        o.append(f'<rect x="0" y="0" width="{CELL}" height="{CELL}" rx="2" fill="{g_c}" transform="translate({sx:.1f},{sy:.1f})">')
         o.append(f'<animateTransform attributeName="transform" type="translate" values="{vals}" '
                  f'keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')
         o.append(f'<animate attributeName="fill" values="{fvals}" keyTimes="{kts}" dur="{CYCLE}s" repeatCount="indefinite"/>')

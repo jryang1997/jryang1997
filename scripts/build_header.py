@@ -156,7 +156,7 @@ def build_svg(art: list[str], flagship: int, total: int, repos: int, updated: st
         if not any(l.strip() for l in chunk):
             continue
         t0 = max(0.001, b / BANDS * reveal_end)
-        o.append('<g opacity="0.15">')
+        o.append('<g opacity="1">')
         o.append(
             f'<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" '
             f'keyTimes="0;{t0:.3f};0.88;0.94;1" dur="{CYCLE}s" repeatCount="indefinite"/>'
@@ -175,7 +175,7 @@ def build_svg(art: list[str], flagship: int, total: int, repos: int, updated: st
     reveal_end = 0.42
 
     def fade(wrap: str, t0: float) -> None:
-        o.append(f'<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" '
+        o.append(f'<g opacity="1"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" '
                  f'keyTimes="0;{t0:.3f};0.88;0.94;1" dur="{CYCLE}s" repeatCount="indefinite"/>{wrap}</g>')
 
     fade(f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text>', 0.04)
