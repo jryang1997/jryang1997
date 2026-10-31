@@ -4,7 +4,10 @@
 
 
 <p align="center">
-  <img src="assets/contrib-ocean.svg" width="900" alt="Contribution heatmap that gathers into an ASCII blue whale, dives below the surface and rises again">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/contrib-static.svg">
+  <img src="assets/contrib-ocean.svg" width="900" alt="Contribution heatmap becomes a top-down text blue whale, dives head first, resurfaces nose first, and returns to the calendar">
+  </picture>
 </p>
 
 
@@ -31,3 +34,5 @@
 仓库中的许多工程化实践（如领域词汇表、ADR 记录与测试门禁）受益于开源社区优秀的 Agent 技能与工程方法论（特别感谢 Matt Pocock、Poteto 等开发者的开源分享）。我还在持续学习中，欢迎提 Issue 或交流想法！
 
 <sub>The ASCII header is traced from a CC0 sheep silhouette (Wikimedia Commons, LadyofHats); the star count refreshes daily via GitHub Actions.</sub>
+
+<sub>The text whale uses the geometry, tail rig and dive motion from <a href="https://github.com/jryang1997/dsh-ascii-whales/tree/949c19afacedd31cd0101fb4e2501eadb91aa485/src">dsh-ascii-whales</a>. Contributions refresh daily; reduced motion shows the calendar.</sub>
