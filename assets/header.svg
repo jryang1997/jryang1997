@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="322" viewBox="0 0 700 322" role="img" aria-label="jryang1997 — terminal card: cowsay-styled ASCII sheep with whoami output">
 <style>
-:root{--bg:#f6f8fa;--bar:#eaeef2;--bd:#d0d7de;--fg:#1f2328;--mu:#6e7781;--cy:#0969da;--am:#9a6700;--gr:#1a7f37;--sav:#8c959f;}
-@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--cy:#79c0ff;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;}}
+:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--cy:#79c0ff;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;}
 .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
 .f13{font-size:13px}.f11{font-size:11px}.f10{font-size:10px}
 .cy{fill:var(--cy)}.am{fill:var(--am)}.gr{fill:var(--gr)}.fg{fill:var(--fg)}.mu{fill:var(--mu)}.sav{fill:var(--sav)}
