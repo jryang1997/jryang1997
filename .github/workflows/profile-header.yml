@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - scripts/build_header.py
+      - scripts/build_contrib.py
       - .github/workflows/profile-header.yml
 
 permissions:
@@ -34,11 +35,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/build_header.py
 
+      - name: Rebuild contribution ocean
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_contrib.py
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/header.svg
+          git add assets/header.svg assets/contrib-ocean.svg
           if git diff --staged --quiet; then
             echo "header unchanged"
           else

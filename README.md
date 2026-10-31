@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="assets/header.svg" width="738" alt="jryang1997 — terminal card: whoami, cowsay ASCII sheep, and stack">
+  <img src="assets/header.svg" width="738" alt="jryang1997 — terminal card with an ASCII line-art sheep">
+</p>
+
+
+<p align="center">
+  <img src="assets/contrib-ocean.svg" width="900" alt="Contribution heatmap that gathers into an ASCII blue whale, dives below the surface and rises again">
 </p>
 
 
