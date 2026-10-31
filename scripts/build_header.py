@@ -142,37 +142,61 @@ def build_svg(art: list[str], flagship: int, total: int, repos: int, updated: st
         f'font-size="11" fill="var(--mu)">{escape(USER)}@github: ~ — sheep.txt</text>'
     )
 
+    # 逐带显现：把字符行切成若干带，每带一个 opacity 动画，模拟终端打印
+    BANDS = 7
+    CYCLE = 26.0
+    reveal_end = 0.42
+    band_size = max(1, -(-len(art) // BANDS))
     o.append(
         '<g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" '
         f'font-size="{FS}" fill="var(--art)">'
     )
-    for i, line in enumerate(art):
-        if line.strip():
-            o.append(
-                f'<text x="{ART_X}" y="{ART_Y+i*LH:.1f}" xml:space="preserve">{escape(line)}</text>'
-            )
+    for b in range(BANDS):
+        chunk = art[b * band_size:(b + 1) * band_size]
+        if not any(l.strip() for l in chunk):
+            continue
+        t0 = max(0.001, b / BANDS * reveal_end)
+        o.append('<g opacity="0.15">')
+        o.append(
+            f'<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" '
+            f'keyTimes="0;{t0:.3f};0.88;0.94;1" dur="{CYCLE}s" repeatCount="indefinite"/>'
+        )
+        for off, line in enumerate(chunk):
+            i = b * band_size + off
+            if line.strip():
+                o.append(
+                    f'<text x="{ART_X}" y="{ART_Y+i*LH:.1f}" xml:space="preserve">{escape(line)}</text>'
+                )
+        o.append("</g>")
     o.append("</g>")
 
     y = ART_Y + 46
-    o.append(f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text>')
+    CYCLE = 26.0
+    reveal_end = 0.42
+
+    def fade(wrap: str, t0: float) -> None:
+        o.append(f'<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" '
+                 f'keyTimes="0;{t0:.3f};0.88;0.94;1" dur="{CYCLE}s" repeatCount="indefinite"/>{wrap}</g>')
+
+    fade(f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text>', 0.04)
     y += 28
-    o.append(
-        f'<text class="m" x="{ix}" y="{y}" font-size="15" fill="var(--fg)" '
-        f'font-weight="600">一只羊的 ASCII</text>'
-    )
+    fade(f'<text class="m" x="{ix}" y="{y}" font-size="15" fill="var(--fg)" font-weight="600">一只羊的 ASCII</text>', 0.10)
     y += 30
+    t = 0.16
     for key, value in info:
-        o.append(f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--am)">{escape(key)}</text>')
-        o.append(
+        fade(
+            f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--am)">{escape(key)}</text>'
             f'<text class="m" x="{ix+48}" y="{y}" font-size="11" fill="var(--fg)" '
-            f'xml:space="preserve">{escape(value)}</text>'
+            f'xml:space="preserve">{escape(value)}</text>',
+            t,
         )
         y += 22
+        t = min(0.40, t + 0.035)
     y += 6
     o.append(f'<text class="m" x="{ix}" y="{y}" font-size="11" fill="var(--sav)">$</text>')
     o.append(
         f'<rect x="{ix+9}" y="{y-9}" width="6" height="11" fill="var(--gr)" opacity="0.8">'
-        '<animate attributeName="opacity" values="0.8;0;0.8" dur="1.15s" repeatCount="indefinite"/>'
+        '<animate attributeName="opacity" values="0.85;0;0.85;0.85" keyTimes="0;0.5;0.52;1" dur="1.15s" repeatCount="indefinite"/>'
         "</rect>"
     )
 

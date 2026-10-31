@@ -8,6 +8,8 @@
 <circle cx="58" cy="24" r="4.5" fill="#28c840" opacity="0.9"/>
 <text class="m" x="369.0" y="28" text-anchor="middle" font-size="11" fill="var(--mu)">jryang1997@github: ~ — sheep.txt</text>
 <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9.4" fill="var(--art)">
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.001;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="95.7" xml:space="preserve">                    :::   ::                                  </text>
 <text x="28" y="105.4" xml:space="preserve">                 :+*@@@#*%@@#=:                          .--  </text>
 <text x="28" y="115.1" xml:space="preserve">              .:#@#*-:.::::-+%@#*-:------::.    .:--=+*##%@%  </text>
@@ -15,6 +17,9 @@
 <text x="28" y="134.5" xml:space="preserve">         :#@*-.                  .*+         ...          .#  </text>
 <text x="28" y="144.2" xml:space="preserve">         *@*                      +@%:                    .#  </text>
 <text x="28" y="153.9" xml:space="preserve">         .#%%                      -@*                    .#  </text>
+</g>
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.060;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="163.6" xml:space="preserve">          *%*                      *%:                    .#  </text>
 <text x="28" y="173.3" xml:space="preserve">          #@=                     *@#                     .#  </text>
 <text x="28" y="183.0" xml:space="preserve">         -%%:                    +@%@=                    .#  </text>
@@ -23,6 +28,9 @@
 <text x="28" y="212.1" xml:space="preserve">       .@*    @%              *@  :+%%@@@-                .#  </text>
 <text x="28" y="221.8" xml:space="preserve">        *@    *%#+.--.      -%%#    #%:::                 .#  </text>
 <text x="28" y="231.5" xml:space="preserve">        =@+    :@@%%@@****#%@@#.   -%*                    .#  </text>
+</g>
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.120;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="241.2" xml:space="preserve">        .*@+   +%=  .-=++++=-%#   :@@=                    .#  </text>
 <text x="28" y="250.9" xml:space="preserve">          +@#. #%           .%#   +#+.                    .#  </text>
 <text x="28" y="260.6" xml:space="preserve">           =@%-+%+         .%%:             -==           .#  </text>
@@ -31,6 +39,9 @@
 <text x="28" y="289.7" xml:space="preserve">                    %@**%%@-   ==*@@*+%@:                 .#  </text>
 <text x="28" y="299.4" xml:space="preserve">                    +@@@@@+       .=*#+=                  .#  </text>
 <text x="28" y="309.1" xml:space="preserve">                    .+%%-.                                .#  </text>
+</g>
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.180;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="318.8" xml:space="preserve">                      %@#-                                .#  </text>
 <text x="28" y="328.5" xml:space="preserve">                      :-*@*                               .#  </text>
 <text x="28" y="338.2" xml:space="preserve">                         #@:                              .#  </text>
@@ -39,6 +50,9 @@
 <text x="28" y="367.3" xml:space="preserve">                           :+%@+-.                        .#  </text>
 <text x="28" y="377.0" xml:space="preserve">                             .=*#%%#+                     .#  </text>
 <text x="28" y="386.7" xml:space="preserve">                                  .#@                     .#  </text>
+</g>
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.240;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="396.4" xml:space="preserve">                                   %%=                    .#  </text>
 <text x="28" y="406.1" xml:space="preserve">                                   =@%:          =%%.*###*.#  </text>
 <text x="28" y="415.8" xml:space="preserve">                                    -%@:         %@: %%.+@##  </text>
@@ -47,6 +61,9 @@
 <text x="28" y="444.9" xml:space="preserve">                                    :@#        *@=    +@+     </text>
 <text x="28" y="454.6" xml:space="preserve">                                    #%.       .@%      *@.    </text>
 <text x="28" y="464.3" xml:space="preserve">                                   *@*       :#@+     =%%.    </text>
+</g>
+<g opacity="0.15">
+<animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.300;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/>
 <text x="28" y="474.0" xml:space="preserve">                                  #@=        %@+  ..:*@*:     </text>
 <text x="28" y="483.7" xml:space="preserve">                                .#@=         :.  :%%##+       </text>
 <text x="28" y="493.4" xml:space="preserve">                                *@-              +@:          </text>
@@ -55,22 +72,17 @@
 <text x="28" y="522.5" xml:space="preserve">                                 +%%**##@%+                   </text>
 <text x="28" y="532.2" xml:space="preserve">                                  .:--:::                     </text>
 </g>
-<text class="m" x="434" y="132" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text>
-<text class="m" x="434" y="160" font-size="15" fill="var(--fg)" font-weight="600">一只羊的 ASCII</text>
-<text class="m" x="434" y="190" font-size="11" fill="var(--am)">os</text>
-<text class="m" x="482" y="190" font-size="11" fill="var(--fg)" xml:space="preserve">macOS · Windows · Android</text>
-<text class="m" x="434" y="212" font-size="11" fill="var(--am)">role</text>
-<text class="m" x="482" y="212" font-size="11" fill="var(--fg)" xml:space="preserve">vibe coder · 非科班</text>
-<text class="m" x="434" y="234" font-size="11" fill="var(--am)">stack</text>
-<text class="m" x="482" y="234" font-size="11" fill="var(--fg)" xml:space="preserve">Swift · TS · Rust · Python</text>
-<text class="m" x="434" y="256" font-size="11" fill="var(--am)">now</text>
-<text class="m" x="482" y="256" font-size="11" fill="var(--fg)" xml:space="preserve">MenuBarMijia · ★220</text>
-<text class="m" x="434" y="278" font-size="11" fill="var(--am)">side</text>
-<text class="m" x="482" y="278" font-size="11" fill="var(--fg)" xml:space="preserve">ASCII whales · AI agents</text>
-<text class="m" x="434" y="300" font-size="11" fill="var(--am)">motto</text>
-<text class="m" x="482" y="300" font-size="11" fill="var(--fg)" xml:space="preserve">小摩擦，搓成小工具</text>
+</g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.040;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="132" font-size="11" fill="var(--sav)"># 母羊和她的小羊</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.100;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="160" font-size="15" fill="var(--fg)" font-weight="600">一只羊的 ASCII</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.160;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="190" font-size="11" fill="var(--am)">os</text><text class="m" x="482" y="190" font-size="11" fill="var(--fg)" xml:space="preserve">macOS · Windows · Android</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.195;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="212" font-size="11" fill="var(--am)">role</text><text class="m" x="482" y="212" font-size="11" fill="var(--fg)" xml:space="preserve">vibe coder · 非科班</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.230;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="234" font-size="11" fill="var(--am)">stack</text><text class="m" x="482" y="234" font-size="11" fill="var(--fg)" xml:space="preserve">Swift · TS · Rust · Python</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.265;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="256" font-size="11" fill="var(--am)">now</text><text class="m" x="482" y="256" font-size="11" fill="var(--fg)" xml:space="preserve">MenuBarMijia · ★220</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.300;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="278" font-size="11" fill="var(--am)">side</text><text class="m" x="482" y="278" font-size="11" fill="var(--fg)" xml:space="preserve">ASCII whales · AI agents</text></g>
+<g opacity="0.15"><animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.335;0.88;0.94;1" dur="26.0s" repeatCount="indefinite"/><text class="m" x="434" y="300" font-size="11" fill="var(--am)">motto</text><text class="m" x="482" y="300" font-size="11" fill="var(--fg)" xml:space="preserve">小摩擦，搓成小工具</text></g>
 <text class="m" x="434" y="328" font-size="11" fill="var(--sav)">$</text>
-<rect x="443" y="319" width="6" height="11" fill="var(--gr)" opacity="0.8"><animate attributeName="opacity" values="0.8;0;0.8" dur="1.15s" repeatCount="indefinite"/></rect>
+<rect x="443" y="319" width="6" height="11" fill="var(--gr)" opacity="0.8"><animate attributeName="opacity" values="0.85;0;0.85;0.85" keyTimes="0;0.5;0.52;1" dur="1.15s" repeatCount="indefinite"/></rect>
 <path d="M18 606 H720" stroke="var(--bd)" stroke-width="1"/>
 <text class="m" x="22" y="622" font-size="10" fill="var(--mu)" xml:space="preserve">[0] 0:zsh*  sheep.txt — 62×52</text>
 <text class="m" x="369.0" y="622" font-size="10" fill="var(--sav)" text-anchor="middle">229★ · 10 repos</text>
