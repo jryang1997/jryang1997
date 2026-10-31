@@ -1,19 +1,7 @@
-```ansi
-  [1m[35mjryang1997[0m[90m@github[0m[90m ~[0m [36m$[0m whoami
+<p align="center">
+  <img src="assets/header.svg" width="700" alt="jryang1997 — terminal card: whoami, cowsay ASCII sheep, and stack">
+</p>
 
-  [36m      ▄▄▄▄▄▄▄▄▄▄▄▄      [0m    [1m一群小羊说[0m [90m· 赛博一只羊[0m
-  [36m    ▄█▀░░░░░░░░░░▀█▄    [0m    [90m────────────────────────────────[0m
-  [36m   █▀░░░░░░░░░░░░░░▀█   [0m    [33mos[0m     macOS · Windows · Android
-  [36m  █░░░░░░░░░░░░░░░░░░█  [0m    [33mrole[0m   vibe coder · 非科班
-  [36m  █░░░░██░░░░░░██░░░░█  [0m    [33mstack[0m  Swift · TS · Rust · Python
-  [36m  █░░░░██░░░░░░██░░░░█  [0m    [33mnow[0m    MenuBarMijia · ★220
-  [36m  █░░░░░░░░░░░░░░░░░░█  [0m    [33mside[0m   ASCII whales · AI agents
-  [36m  █░░░░░░░▄▄▄▄░░░░░░░█  [0m    [33mmotto[0m  小摩擦，搓成小工具
-  [36m  █░░░░░░░░░░░░░░░░░░█  [0m    [90m────────────────────────────────[0m
-  [36m   █░░░░░░░░░░░░░░░░█   [0m    [32m→ 谢谢路过，欢迎 Issue 找我聊天[0m
-  [36m    ▀█▄▄░░░░░░░░▄▄█▀    [0m    
-  [36m      ▀▀▀█▄▄▄▄█▀▀▀      [0m    
-```
 
 *Non-CS builder exploring Vibe Coding — turning everyday friction into small, practical tools with the help of AI agents and open-source workflows.*
 

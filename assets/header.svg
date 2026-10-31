@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="322" viewBox="0 0 700 322" role="img" aria-label="jryang1997 — terminal card: cowsay-styled ASCII sheep with whoami output">
+<style>
+:root{--bg:#f6f8fa;--bar:#eaeef2;--bd:#d0d7de;--fg:#1f2328;--mu:#6e7781;--cy:#0969da;--am:#9a6700;--gr:#1a7f37;--sav:#8c959f;}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--bar:#161b22;--bd:#30363d;--fg:#e6edf3;--mu:#8b949e;--cy:#79c0ff;--am:#e3b341;--gr:#7ee787;--sav:#6e7681;}}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+.f13{font-size:13px}.f11{font-size:11px}.f10{font-size:10px}
+.cy{fill:var(--cy)}.am{fill:var(--am)}.gr{fill:var(--gr)}.fg{fill:var(--fg)}.mu{fill:var(--mu)}.sav{fill:var(--sav)}
+</style>
+<rect x="8" y="8" width="684" height="306" rx="10" fill="var(--bg)" stroke="var(--bd)" stroke-width="1.5"/>
+<path d="M18 8 h664 a10,10 0 0 1 10,10 v24 h-684 v-24 a10,10 0 0 1 10,-10 z" fill="var(--bar)"/>
+<path d="M18 42 H682" stroke="var(--bd)" stroke-width="1"/>
+<circle cx="28" cy="25" r="4.5" fill="#ff5f57" opacity="0.9"/>
+<circle cx="43" cy="25" r="4.5" fill="#febc2e" opacity="0.9"/>
+<circle cx="58" cy="25" r="4.5" fill="#28c840" opacity="0.9"/>
+<text class="m f11 mu" x="350.0" y="29" text-anchor="middle">jryang1997@github: ~</text>
+<text class="m f13" x="32" y="70" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> whoami</tspan></text>
+<text class="m f13 fg" x="32" y="85.6" xml:space="preserve">一群小羊说 · 赛博一只羊</text>
+<text class="m f13" x="32" y="107.19999999999999" xml:space="preserve"><tspan class="gr">$</tspan><tspan class="fg"> cowsay </tspan><tspan class="am">"small tools, small frictions"</tspan></text>
+<text class="m f13 fg" x="32" y="124.79999999999998" xml:space="preserve"> ________________________________</text>
+<text class="m f13 fg" x="32" y="140.39999999999998" xml:space="preserve">&lt; small tools, small frictions &gt;</text>
+<text class="m f13 sav" x="32" y="155.99999999999997" xml:space="preserve"> --------------------------------</text>
+<text class="m f13 cy" x="32" y="171.59999999999997" xml:space="preserve">        \   ^___^</text>
+<text class="m f13 cy" x="32" y="187.19999999999996" xml:space="preserve">         \ ( o o )\_______</text>
+<text class="m f13 cy" x="32" y="202.79999999999995" xml:space="preserve">           (____)\        )\/\</text>
+<text class="m f13 cy" x="32" y="218.39999999999995" xml:space="preserve">                 ||----w |</text>
+<text class="m f13 cy" x="32" y="233.99999999999994" xml:space="preserve">                 ||     ||</text>
+<text class="m f13 am" x="401.6" y="103.2">os</text>
+<text class="m f13 fg" x="457.8" y="103.2" xml:space="preserve">macOS · Windows · Android</text>
+<text class="m f13 am" x="401.6" y="120.8">role</text>
+<text class="m f13 fg" x="457.8" y="120.8" xml:space="preserve">vibe coder · 非科班</text>
+<text class="m f13 am" x="401.6" y="138.4">stack</text>
+<text class="m f13 fg" x="457.8" y="138.4" xml:space="preserve">Swift · TS · Rust · Python</text>
+<text class="m f13 am" x="401.6" y="156.0">now</text>
+<text class="m f13 fg" x="457.8" y="156.0" xml:space="preserve">MenuBarMijia · ★220</text>
+<text class="m f13 am" x="401.6" y="173.6">side</text>
+<text class="m f13 fg" x="457.8" y="173.6" xml:space="preserve">ASCII whales · AI agents</text>
+<text class="m f13 am" x="401.6" y="191.2">motto</text>
+<text class="m f13 fg" x="457.8" y="191.2" xml:space="preserve">小摩擦，搓成小工具</text>
+<path d="M18 286 H682" stroke="var(--bd)" stroke-width="1"/>
+<text class="m f10 mu" x="22" y="299" xml:space="preserve">[0] 0:zsh*</text>
+<text class="m f10 sav" x="350.0" y="299" text-anchor="middle">"一群小羊说"</text>
+<text class="m f10 mu" x="678" y="299" text-anchor="end">utf-8 · 一只羊</text>
+</svg>
