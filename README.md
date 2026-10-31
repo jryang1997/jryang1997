@@ -24,3 +24,5 @@
 ### Acknowledgments · 致谢
 
 仓库中的许多工程化实践（如领域词汇表、ADR 记录与测试门禁）受益于开源社区优秀的 Agent 技能与工程方法论（特别感谢 Matt Pocock、Poteto 等开发者的开源分享）。我还在持续学习中，欢迎提 Issue 或交流想法！
+
+<sub>The ASCII header is traced from a CC0 sheep silhouette (Wikimedia Commons, LadyofHats); the star count refreshes daily via GitHub Actions.</sub>
